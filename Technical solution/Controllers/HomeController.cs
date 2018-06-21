@@ -51,7 +51,6 @@ namespace Technical_solution.Controllers
                     }
                     db.sentenсes.AddRange(temp);
                     db.SaveChanges();
-                    System.IO.File.Delete(_appEnvironment.WebRootPath + path);
                 }
                 
             }
